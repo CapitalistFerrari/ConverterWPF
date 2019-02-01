@@ -1,0 +1,79 @@
+﻿<Window x:Class="WPFConverterRH.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFConverterRH"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="400">
+    <Window.Resources>
+        <Style x:Key="MyStyle" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontFamily" Value="Copperplate Gothic Bold"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="Foreground" Value="Crimson"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox
+            x:Name="TextBox_Feet"
+            Grid.Row="0"
+            Grid.Column="1"
+            Width="100"
+            Height="30"
+            HorizontalAlignment="Center"/>
+        <TextBox
+            x:Name="TextBox_Meters"
+            Grid.Row="1"
+            Grid.Column="1"
+            Width="100"
+            Height="30"
+            HorizontalAlignment="Center"/>
+        <Label
+            Grid.Row="0"
+            Grid.Column="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Content="Feet"
+            FontSize="16"
+            FontWeight="Bold"
+            Style="{StaticResource MyStyle}"/>
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Content="Meters"
+            Style="{StaticResource MyStyle}"/>
+        <Button
+            x:Name="Button_FeettoMeters"
+            Grid.Row="2"
+            Grid.Column="0"
+            Content="Feet to Meters"
+            Width="100"
+            Height="30" 
+            Click="Button_FeettoMeters_Click"
+            />
+        <Button
+            x:Name="Button_MeterstoFeet"
+            Grid.Row="2"
+            Grid.Column="1"
+            Content="MeterstoFeet"
+            Width="100"
+            Height="30" Click="Button_MeterstoFeet_Click" 
+            
+            />
+
+    </Grid>
+</Window>

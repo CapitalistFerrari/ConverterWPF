@@ -1,0 +1,15 @@
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\bin\Debug\WPFConverterRH.exe.config
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\bin\Debug\WPFConverterRH.exe
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\bin\Debug\WPFConverterRH.pdb
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.csprojAssemblyReference.cache
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\MainWindow.g.cs
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\App.g.cs
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH_MarkupCompile.cache
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH_MarkupCompile.lref
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\MainWindow.baml
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.g.resources
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.Properties.Resources.resources
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.csproj.GenerateResource.cache
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.exe
+C:\Users\Ryan\Desktop\WPFConverterRH\WPFConverterRH\obj\Debug\WPFConverterRH.pdb
